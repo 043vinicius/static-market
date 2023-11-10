@@ -1,19 +1,18 @@
 # Universidade Positivo Londrina
-## Disciplina: Algoritmos de Programação
+### Disciplina: Algoritmos de Programação
 ### Professores: Dra Liliane Santana Oliveira Kashiwabara
 
-### A presente atividade se relaciona com a nota das atividades do segundo bimestre da disciplina Algoritmos de Programação do ano de 2023/2. 
-### Para essa atividade, você deve elaborar um estudo de caso que será utilizado como problema para o desenvolvimento de um programa em C.
+A presente atividade se relaciona com a nota das atividades do segundo bimestre da disciplina Algoritmos de Programação do ano de 2023/2. 
+Para essa atividade, você deve elaborar um estudo de caso que será utilizado como problema para o desenvolvimento de um programa em C.
 ---
-### O estudo de caso deverá ser bem pensado, pois o sistema a ser desenvolvido deverá OBRIGATORIAMENTE obedecer às seguintes regras:
-
+O estudo de caso deverá ser bem pensado, pois o sistema a ser desenvolvido deverá OBRIGATORIAMENTE obedecer às seguintes regras:
     - O programa deve conter um menu;
     - Deve possuir pelo menos um registro (struct);
     - Deve possuir pelo menos 2 funções;
     - Deve fazer o uso de pelo menos um vetor ou matriz;
     - Deve fazer uso de estruturas condicionais e laços de repetição.
 ---
-### Regras gerais:
+Regras gerais:
 
     1. Vocês devem entregar um pequeno texto descrevendo o estudo de caso escolhido até às 23:59 da próxima quarta-feira. A idéia é que eu avalie se a proposta poderá ser desenvolvida em tempo hábil.
     2. A nota dessa atividade irá compor 1,5 ponto na nota de exercícios do segundo bimestre.
