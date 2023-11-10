@@ -3,7 +3,7 @@
 ### Professores: Dra Liliane Santana Oliveira Kashiwabara
 ---
 Alunos:
-- Vinicius Moreira Silba
+- Vinicius Moreira Silva
 - Ariel Bider Capinam
 ---
 A presente atividade se relaciona com a nota das atividades do segundo bimestre da disciplina Algoritmos de Programação do ano de 2023/2. 
