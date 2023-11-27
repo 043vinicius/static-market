@@ -1,6 +1,13 @@
 #include <stdio.h>
-#include <windows.h>
 
+// Caso esteja utilizando o Windows, usará a biblioteca windows.h, caso contrário, usará a biblioteca unistd.h
+#ifdef _WIN32 || _WIN64
+    #include <windows.h>
+#else
+    #include <unistd.h>
+#endif
+
+// Códigos cadastrado no clube(considere como um CPF)
 const int CLUBE[] = {1, 2, 3, 4, 5, 6};
 
 typedef struct {
@@ -23,6 +30,7 @@ int verificarClube();
 void sair();
 
 int main() {
+    // Limpa a tela
     system("cls");
    // Cadastra o usuário e verifica se ele possui cadastro no clube de vantagens
     cliente USER = cadastrarUser();
@@ -44,7 +52,7 @@ cliente cadastrarUser() {
     printf("Digite seu nome: ");
     scanf("%[^\n]s", &USER.nome);
     printf("Cadastrando...");
-    sleep(1);
+    sleep(1); // Função que faz o programa esperar por um tempo
     system("cls");
 
     printf("Digite sua idade: ");
